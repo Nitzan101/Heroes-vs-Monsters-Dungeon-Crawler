@@ -45,4 +45,7 @@ The game is built on a grid-based system where every element (Player, Monster, W
 src/
 ├── Enemies/    # Monster and Trap logic
 ├── Game/       # GameRunner and GameBoard (Core Engine)
-├── Players/    # Hero classes (Warrior
+├── Players/    # Hero classes (Warrior, Mage, Rogue, Hunter)
+├── Tiles/      # Base Tile, Unit, Position, and Static Tiles (Wall/Empty)
+├── Tests/      # JUnit 5 test suites
+└── Main.java   # Application entry point
